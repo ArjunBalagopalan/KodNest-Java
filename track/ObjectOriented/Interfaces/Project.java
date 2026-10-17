@@ -1,0 +1,5 @@
+
+interface Project {
+
+    void project();
+}
