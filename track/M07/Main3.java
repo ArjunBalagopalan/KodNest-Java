@@ -7,8 +7,10 @@ public class Main3 {
 
         try {
             dl.verifyAge();
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (UnderAgeException e1) {
+            e1.printStackTrace();
+        } catch (OverAgeException e2) {
+            e2.printStackTrace();
         }
     }
 }
