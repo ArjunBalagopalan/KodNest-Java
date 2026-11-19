@@ -3,6 +3,7 @@ class PrintChar extends Thread {
 
     @Override
     public void run() {
+
         System.out.println("Printing Activity Started");
         for (char i = 'A'; i <= 'G'; i++) {
             System.out.println(i);
@@ -12,5 +13,6 @@ class PrintChar extends Thread {
             }
         }
         System.out.println("Printing Activity Completed");
+
     }
 }
